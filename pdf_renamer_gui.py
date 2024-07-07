@@ -67,7 +67,7 @@ def clear_text():
     log_text.delete("1.0", END)  # Delete all text in the Text widget
 
 def open_template_url(event):
-    webbrowser.open_new("https://example.com/template.xlsx")  # Replace with your actual URL
+    webbrowser.open_new("./template.xlsx")  # Replace with your actual URL
 
 # Basic parameters and initializations
 ctk.set_appearance_mode("Dark")  # Supported modes: Light, Dark, System
